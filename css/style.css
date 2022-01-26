@@ -252,7 +252,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 167px);
     background: #D5B981;
     overflow: hidden;
 }
