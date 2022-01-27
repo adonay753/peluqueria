@@ -104,7 +104,7 @@ a:focus {
 }
 
 .top-bar .text h2 {
-    color: #eeeeee;
+    color: #000;
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 1px;
@@ -112,7 +112,7 @@ a:focus {
 }
 
 .top-bar .text p {
-    color: #eeeeee;
+    color: #000;
     font-size: 12px;
     font-weight: 400;
     margin: 0;
@@ -238,7 +238,7 @@ img{
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #1d2434 !important;
+        background: #FACD1B !important;
     }
     
     .navbar a.nav-link {
@@ -263,7 +263,10 @@ img{
     width: 100%;
     margin-bottom: 45px;
     height: calc(100vh - 167px);
-    background: #D5B981 url(../img/hero.jpg);
+    background: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -100px;
     overflow: visible;
 }
 
