@@ -73,7 +73,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 60px;
-    background: #1d2434;
+    background: #FACD1B;
 }
 
 .top-bar .top-bar-left {
@@ -161,6 +161,12 @@ a:focus {
     z-index: 999;
 }
 
+img{
+    display: block;
+    max-width: 170px;
+    height: auto;
+}
+
 .navbar.nav-sticky {
     position: fixed;
     top: 0;
@@ -218,7 +224,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #1d2434 !important;
+        background: #FACD1B !important;
     }
     
     .navbar a.nav-link {
@@ -242,7 +248,11 @@ a:focus {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
+
+
 }
+
+
 
 
 /*******************************/
@@ -253,8 +263,8 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     height: calc(100vh - 167px);
-    background: #D5B981;
-    overflow: hidden;
+    background: #D5B981 url(../img/hero.jpg);
+    overflow: visible;
 }
 
 .hero .container-fluid {
@@ -282,14 +292,14 @@ a:focus {
 }
 
 .hero .hero-text h1 {
-    color: #1d2434;
+    color: #FFFFFF;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .hero .hero-text p {
-    color: #1d2434;
+    color: #fff;
     font-size: 18px;
     margin-bottom: 25px;
 }
