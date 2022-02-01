@@ -35,7 +35,7 @@
                 <div class="top-bar-left">
                     <div class="text">
                         <h2>8:00 - 9:00</h2>
-                        <p>Opening Hour Mon - Fri</p>
+                        <p>Atencion de Lun. a Vie.</p>
                     </div>
                     <div class="text">
                         <h2>+123 456 7890</h2>
@@ -68,19 +68,12 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
                 <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="about.html" class="nav-item nav-link">Nosotros</a>
                 <a href="service.html" class="nav-item nav-link">Servicios</a>
                 <a href="price.html" class="nav-item nav-link">Precios</a>
                 <a href="team.html" class="nav-item nav-link">Barber</a>
                 <a href="portfolio.html" class="nav-item nav-link">Galeria</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu">
-                        <a href="blog.html" class="dropdown-item">Blog Page</a>
-                        <a href="single.html" class="dropdown-item">Single Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact.html" class="nav-item nav-link">Reservas</a>
             </div>
         </div>
     </div>
@@ -94,12 +87,12 @@
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <div class="hero-text">
-                    <h1>HTML5 Template for Salon Website</h1>
+                    <h1>VIRGHY<br>Peluqueria Unisex</h1>
                     <p>
                         Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua
                         metus tortor auctor quis sem.
                     </p>
-                    <a class="btn" href="https://htmlcodex.com/barber-shop-template">Download Now</a>
+                    <a class="btn scrollto" href="#contact">RESERVA TU CITA</a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 d-none d-md-block">
@@ -169,12 +162,7 @@
 
 <!-- About End -->
 
-
-<!-- Principio del widget integrado de Calendly -->
-
-<!-- Final del widget integrado de Calendly -->
-
-<!-- Service Start -->
+<!-- Service Start --
 <div class="service">
     <div class="container">
         <div class="section-header text-center">
@@ -187,12 +175,11 @@
                     <div class="service-img">
                         <img src="img/service-1.jpg" alt="Image">
                     </div>
-                    <h3>Hair Cut</h3>
+                    <h3>Tinte Completo Mas Hidratacion</h3>
                     <p>
-                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit
-                        non
+                        Mujer - Pelo medio - 30 €  Incluye secado rápido para retirar la humedad (No incluye peinado)
                     </p>
-                    <a class="btn" href="">Learn More</a>
+                    <a class="btn" href="">Reservar</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -224,15 +211,15 @@
         </div>
     </div>
 </div>
-<!-- Service End -->
+!-- Service End -->
 
 
 <!-- Pricing Start -->
 <div class="price">
     <div class="container">
         <div class="section-header text-center">
-            <p>Our Best Pricing</p>
-            <h2>We Provide Best Price in the City</h2>
+            <p>Los Mejores Precios</p>
+            <h2>Los Mejores Tratamientos </h2>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6">
@@ -241,21 +228,46 @@
                         <img src="img/price-1.jpg" alt="Image">
                     </div>
                     <div class="price-text">
-                        <h2>Hair Cut</h2>
-                        <h3>$9.99</h3>
+                        <h2>Tinte Completo <br>con Hidratación</h2>
+                        <h3>€ 30</h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="price-item">
+                <div class="price-item" data-toggle="modal" data-target="#exampleModalCenter">
                     <div class="price-img">
                         <img src="img/price-2.jpg" alt="Image">
                     </div>
                     <div class="price-text">
-                        <h2>Hair Wash</h2>
+                        <h2>Mechas<br>Californianas</h2>
                         <h3>$10.99</h3>
                     </div>
                 </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Reservar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="price-item">
@@ -377,7 +389,7 @@
 <div class="testimonial">
     <div class="container">
         <div class="owl-carousel testimonials-carousel">
-            <div class="testimonial-item">
+            <div class="testimonial-item active">
                 <img src="img/testimonial-1.jpg" alt="Image">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis mauris. Vivamus
@@ -472,7 +484,7 @@
 
 
 <!-- Contact Start -->
-<div class="contact">
+<div class="contact" id="contact">
     <div class="container-fluid">
         <div class="container">
             <div class="row align-items-center">
