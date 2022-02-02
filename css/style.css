@@ -1430,3 +1430,11 @@ img{
      color: white;
     background: #e41bfa;
 }
+.car-image-top{
+    max-width: 450px;
+}
+@media (max-width: 767.98px) {
+    .car-image-top {
+max-width: 350px;
+    }
+}
