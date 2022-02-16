@@ -178,7 +178,7 @@ img{
     margin: 0;
     color: #ffffff;
     font-size: 45px;
-    line-height: 0px;
+
     font-weight: 600;
 }
 
@@ -868,7 +868,6 @@ img{
     position: relative;
     margin: 45px 0;
     padding: 120px 0;
-    background: linear-gradient(rgba(29, 36, 52, 1), rgba(29, 36, 52, .5), rgba(29, 36, 52, 1)), url(../img/testimonial-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1177,7 +1176,7 @@ img{
 .contact {
     position: relative;
     width: 100%;
-    margin: 45px 0;
+
     background: #1d2434;
 }
 
@@ -1290,7 +1289,7 @@ img{
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
+    margin-top: 0px;
     padding-top: 90px;
     background: #1d2434;
 }
@@ -1299,7 +1298,7 @@ img{
 .footer .footer-link,
 .footer .footer-newsletter {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 0px;
     color: #999999;
 }
 
